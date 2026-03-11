@@ -28,12 +28,22 @@ Run the script from PowerShell:
 ## Examples
 
 - Length
-- .\SimplePassGen.ps1 -Length 64
+```powershell
+.\SimplePassGen.ps1 -Length 64
+```
 - Include Symbols
-- .\SimplePassGen.ps1 -Symbols
+```powershell
+.\SimplePassGen.ps1 -Symbols
+```
 - No Numbers
-- .\SimplePassGen.ps1 -NoNumbers
+```powershell
+.\SimplePassGen.ps1 -NoNumbers
+```
 - No Uppercase or Numbers
-- .\SimplePassGen.ps1 -NoUpper -NoNumbers
+```powershell
+.\SimplePassGen.ps1 -NoUpper -NoNumbers
+```
 - Numbers Only (No Uppercase or Lowercase)
-- .\SimplePassGen.ps1 -NoUpper -NoLower
+```powershell
+.\SimplePassGen.ps1 -NoUpper -NoLower
+```
