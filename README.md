@@ -27,13 +27,13 @@ Run the script from PowerShell:
 
 ## Examples
 
-Length
+- Length
 .\SimplePassGen.ps1 -Length 64
-Include Symbols
+- Include Symbols
 .\SimplePassGen.ps1 -Symbols
-No Numbers
+- No Numbers
 .\SimplePassGen.ps1 -NoNumbers
-No Uppercase or Numbers
+- No Uppercase or Numbers
 .\SimplePassGen.ps1 -NoUpper -NoNumbers
-Numbers Only (No Uppercase or Lowercase)
+- Numbers Only (No Uppercase or Lowercase)
 .\SimplePassGen.ps1 -NoUpper -NoLower
